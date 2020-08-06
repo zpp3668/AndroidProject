@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:rowCount="10"
+    android:alignmentMode="alignBounds"
+    android:useDefaultMargins="false">
+<!--网格布局-->
+    <TextView
+        android:layout_columnSpan="4"
+        android:layout_columnWeight="2"
+        android:layout_gravity="fill"
+        android:id="@+id/Equation"
+        android:textSize="30sp"
+        android:hint=" "
+        android:maxLines="4"
+        android:paddingRight="15sp"
+        android:gravity="right"
+        android:layout_marginTop="34dp" />
+
+    <TextView
+        android:layout_columnSpan="4"
+        android:layout_columnWeight="2"
+        android:layout_gravity="fill"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/Result"
+        android:textSize="35sp"
+        android:hint="0"
+        android:maxLines="4"
+        android:paddingRight="15sp"
+        android:gravity="right"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/CE"
+        android:text="CE"
+        android:textColor="#cc33cc"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/LBracket"
+        android:text="（"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:divider="#0a0a0a"
+        android:background="#ffffff"
+        android:id="@+id/RBracket"
+        android:text="）"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:textColor="#cc33cc"
+        android:background="#ffffff"
+        android:id="@+id/BACKSPACE"
+        android:text="←"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/Remainder"
+        android:text="%"
+        android:layout_gravity="fill" />
+
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/Involution"
+        android:text="x^y"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/Reciprocal"
+        android:text="1/X"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/Add"
+        android:text="+"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/N9"
+        android:text="9"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/N8"
+        android:text="8"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/N7"
+        android:text="7"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/Subtract"
+        android:text="-"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/N6"
+        android:text="6"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/N5"
+        android:text="5"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/N4"
+        android:text="4"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/Multiply"
+        android:text="*"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/N3"
+        android:text="3"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/N2"
+        android:text="2"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/N1"
+        android:text="1"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/Divide"
+        android:text="/"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/Zero"
+        android:text="0"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:id="@+id/Point"
+        android:text="."
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_margin="1dp"
+        android:background="#cc66cc"
+        android:id="@+id/Equal"
+        android:text="="
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill" />
+
+</GridLayout>
